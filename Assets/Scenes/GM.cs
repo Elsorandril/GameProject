@@ -10,8 +10,7 @@ public class GM : MonoBehaviour
 	private int offY;
 	private int width;
 	private int height;
-	private Vector3 position;
-	private GameObject[][] map;
+	private GameObject[,] map;
 	private Vector3 selected;
 	public int mapSizeX;
 	public int mapSizeY;
@@ -23,12 +22,18 @@ public class GM : MonoBehaviour
 		Level=1;
 		offX=3;
 		offY=3;
-		this.map=new GameObject[mapSizeX][];
-		for(int i=0;i<mapSizeX-1;i++){
+		this.map=new GameObject[mapSizeX,mapSizeY];
+		/*for(int i=0;i<mapSizeX-1;i++){
 			this.map[i]=new GameObject[mapSizeY];
+		}*/
+		for(int i=0;i<this.mapSizeX;i++){
+			for(int j=0;j<this.mapSizeY;j++){
+				this.map[i,j]=null;
+			}
 		}
+		this.selected=Vector3.positiveInfinity;
 		GameObject ry=GameObject.Find( "Rydia" );
-		this.map[0][0]=ry;
+		this.map[0,0]=ry;
 		ry.transform.localPosition =getCoord(0,0);
     }
 
@@ -41,45 +46,49 @@ public class GM : MonoBehaviour
         {
 			//Touch touch = Input.GetTouch(0);
 			//Vector2 pos = touch.position;
-			Vector2 pos = Input.mousePosition;
+			Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			Debug.Log("("+pos.x+","+pos.y+")");
-			position = new Vector3(-pos.x, pos.y, 0.0f);
-			Debug.Log("("+pos.x+","+pos.y+")");
-			if(!positionToCell(pos).Equals(Vector3.positiveInfinity)){
+			Vector3 temp=positionToCell(pos);
+			if(temp.x+offX>=0&&temp.x+offX<=mapSizeX&&temp.y+offY>=0&&temp.y+offY<=mapSizeY){
 				Debug.Log("Clicked");
-				Vector3 temp=positionToCell(pos);
-				Debug.Log("Temp : ("+temp.x+","+temp.y+")");
-				if(selected==Vector3.positiveInfinity){
+				Debug.Log("Temp : ("+(temp.x+offX)+","+(temp.y+offY)+")");
+				if(selected.Equals(Vector3.positiveInfinity)){
+					Debug.Log("Temp Selected Only : "+this.selected);
 					this.selected=temp;
 				}
 				else{
-					this.map[(int)temp.x][(int)temp.y]=this.map[(int)this.selected.x][(int)this.selected.y];
-					this.map[(int)this.selected.x][(int)this.selected.y]=null;
+					
+					Debug.Log("Temp Selected : "+this.selected);
+					Debug.Log("Temp temp: "+temp);
+					this.map[(int)temp.x+offX,(int)temp.y+offY]=this.map[(int)this.selected.x+offX,(int)this.selected.y+offY];
+					this.map[(int)this.selected.x+offX,(int)this.selected.y+offY]=null;
 					this.selected=Vector3.positiveInfinity;
 				}
 			}
 		}
+		updateMap();
 		
     }
-	
-	public Vector3 getCoord(int x, int y){
-		Grid[] grid=GameObject.FindObjectsOfType( typeof(Grid) ) as Grid[];
-		return grid[0].GetCellCenterLocal(new  Vector3Int(x-offX,y-offY,0));
-	}
-	
-	public Vector3 positionToCell(Vector2 pos){
-		Grid[] grid=GameObject.FindObjectsOfType( typeof(Grid) ) as Grid[];
-		for(int i=0;i<6;i++){
-			for(int j=0;j<6;j++){
-				grid[0].GetBoundsLocal(new Vector3Int(i-offX,j-offY,0));
-				Debug.Log("Temp : ("+grid[0].GetBoundsLocal(new Vector3Int(i-offX,j-offY,0)).max.x+","+grid[0].GetBoundsLocal(new Vector3Int(i-offX,j-offY,0)).max.y+")");
-				if(grid[0].GetBoundsLocal(new Vector3Int(i-offX,j-offY,0)).Contains(pos)){
-					Debug.Log("Contained");
-					return new Vector3(i-offX,j-offY,0);
+	public void updateMap(){
+		for(int i=0;i<this.mapSizeX;i++){
+			for(int j=0;j<this.mapSizeY;j++){
+				if(this.map[i,j]!=null){
+					this.map[i,j].transform.localPosition =getCoord(i,j);
 				}
 			}
 		}
-		return Vector3.positiveInfinity;
+	}
+	
+	public Vector3 getCoord(int x, int y){
+		Grid[] grid=GameObject.FindObjectsOfType( typeof(Grid) ) as Grid[];
+		return grid[0].GetCellCenterWorld(new  Vector3Int(x-offX,y-offY,0));
+	}
+	
+	public Vector3 positionToCell(Vector3 pos){
+		Grid[] grid=GameObject.FindObjectsOfType( typeof(Grid) ) as Grid[];
+		Vector3Int temp=grid[0].WorldToCell(pos);
+		Debug.Log("Temp2 : "+temp);
+		return new Vector3(temp.x,temp.y,temp.z);
 	}
 	
 	
