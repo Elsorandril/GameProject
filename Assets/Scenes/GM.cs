@@ -8,6 +8,7 @@ public class GM : MonoBehaviour
 	private int Level;
 	private int width;
 	private int height;
+	private int movementCount;
 	private GameObject[,] map;
 	private GameObject[,] moveMap;
 	private Vector3 selected;
@@ -53,28 +54,36 @@ public class GM : MonoBehaviour
 				Debug.Log("Clicked");
 				Debug.Log("Temp : ("+(temp.x)+","+(temp.y)+")");
 				if(selected.Equals(Vector3.positiveInfinity)){
-					if(!empty(temp)){
+					if(!empty(temp)&&this.map[(int)temp.x,(int)temp.y].tag=="Allies"){
 						Debug.Log("Temp Selected Only : "+this.selected);
 						this.selected=temp;
 						this.selectedMoves=possibleMovesInRange(temp, 3);
+					}
+					else{
+						this.selected=Vector3.positiveInfinity;
+						this.selectedMoves.Clear();
 					}
 				}
 				else{
 					if(!this.selected.Equals(temp)&&this.selectedMoves.Contains(Vector3Int.FloorToInt(temp))){
 						Debug.Log("Temp Selected : "+this.selected);
 						Debug.Log("Temp temp: "+temp);
-						if(this.map[(int)temp.x,(int)temp.y].tag=="Ennemies"){
+						if((!empty(selected)&&this.map[(int)this.selected.x,(int)this.selected.y].tag=="Allies"&&(empty(temp)||this.map[(int)temp.x,(int)temp.y].tag=="Ennemies"))){
+							Destroy(this.map[(int)temp.x,(int)temp.y],.5f);
 							this.map[(int)temp.x,(int)temp.y]=this.map[(int)this.selected.x,(int)this.selected.y];
 							this.map[(int)this.selected.x,(int)this.selected.y]=null;
 							this.selected=Vector3.positiveInfinity;
 							this.selectedMoves.Clear();
+							this.movementCount+=1;
 						}
-						else if(this.map[(int)temp.x,(int)temp.y].tag=="Allies"){
+						else if(!empty(selected)&&this.map[(int)temp.x,(int)temp.y].tag=="Allies"){
 							this.selected=temp;
+							this.selectedMoves.Clear();
 							this.selectedMoves=possibleMovesInRange(temp, 3);
 						}
 						else{
-							
+							this.selected=Vector3.positiveInfinity;
+							this.selectedMoves.Clear();
 						}
 					}
 					else{
@@ -83,6 +92,10 @@ public class GM : MonoBehaviour
 					}
 				}
 			}
+		}
+		if(this.movementCount>=3){
+			opponentTurn();
+			this.movementCount=0;
 		}
 		updateMap();
 		
@@ -104,7 +117,23 @@ public class GM : MonoBehaviour
 		}
 	}
 	
-	public bool empty(Vector3 pos){
+	private void opponentTurn(){
+		
+	}
+	
+	private bool isAlly(Vector3 pos){
+		return this.map[(int)pos.x,(int)pos.y].tag=="Allies";
+	}
+	
+	private bool isEnnemy(Vector3 pos){
+		return this.map[(int)pos.x,(int)pos.y].tag=="Ennemies";
+	}
+	
+	private bool sameCamp(Vector3 pos, Vector3 pos2){
+		return this.map[(int)pos.x,(int)pos.y].tag==this.map[(int)pos2.x,(int)pos2.y].tag;
+	}
+	
+	private bool empty(Vector3 pos){
 		return (this.map[(int)pos.x,(int)pos.y]==null);
 	}
 	
@@ -124,10 +153,10 @@ public class GM : MonoBehaviour
 		for(int i=(0-range);i<range;i++){
 			for(int j=0;j<(range-Mathf.Abs(i));j++){
 				Debug.Log("i: "+i+" j: "+j);
-				if(inBound(actual+(new Vector3(i,-j,0)))){
+				if(inBound(actual+(new Vector3(i,-j,0)))&&(empty(actual+(new Vector3(i,-j,0)))||!sameCamp(actual,actual+(new Vector3(i,-j,0))))){
 					ll.AddFirst(Vector3Int.FloorToInt(actual+(new Vector3(i,-j,0))));
 				}
-				if(inBound(actual+(new Vector3(i,j,0)))){
+				if(inBound(actual+(new Vector3(i,j,0)))&&(empty(actual+(new Vector3(i,j,0)))||!sameCamp(actual,actual+(new Vector3(i,j,0))))){
 					ll.AddFirst(Vector3Int.FloorToInt(actual+(new Vector3(i,j,0))));
 				}
 			}
