@@ -25,6 +25,7 @@ public class GM : MonoBehaviour
 		this.offset=new Vector3(3,3,0);
 		this.map=new GameObject[mapSizeX,mapSizeY];
 		this.moveMap=new GameObject[mapSizeX,mapSizeY];
+		this.selectedMoves=new LinkedList<Vector3Int>();
 		for(int i=0;i<this.mapSizeX;i++){
 			for(int j=0;j<this.mapSizeY;j++){
 				this.map[i,j]=null;
@@ -32,10 +33,18 @@ public class GM : MonoBehaviour
 			}
 		}
 		this.selected=Vector3.positiveInfinity;
-		GameObject ry=GameObject.Find( "Rydia" );
+		GameObject ry=GameObject.Find( "Rosa" );
 		this.map[0,0]=ry;
-		GameObject ry2=GameObject.Find( "R2D2" );
+		GameObject ry2=GameObject.Find( "Cecil1" );
 		this.map[1,0]=ry2;
+		GameObject ry3=GameObject.Find( "Cecil2" );
+		this.map[2,0]=ry3;
+		GameObject ry4=GameObject.Find( "Cid" );
+		this.map[3,0]=ry4;
+		GameObject ry5=GameObject.Find( "Edge" );
+		this.map[4,0]=ry5;
+		GameObject ry6=GameObject.Find( "Edward" );
+		this.map[5,0]=ry6;
     }
 
 	
@@ -46,9 +55,7 @@ public class GM : MonoBehaviour
 		if (Input.GetButtonDown("Fire1"))
         {
 			//Touch touch = Input.GetTouch(0);
-			//Vector2 pos_2 = touch.position;
-      //Vector3 pos = new Vector3(pos_2.x,pos_2.y,0);
-			//Vector3 pos = Camera.main.ScreenToWorldPoint(touch.position);
+			//Vector2 pos = touch.position;
 			Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			Debug.Log("("+pos.x+","+pos.y+")");
 			Vector3 temp=positionToCell(pos)+this.offset;
