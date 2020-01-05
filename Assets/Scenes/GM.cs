@@ -68,7 +68,7 @@ public class GM : MonoBehaviour
 					if(!this.selected.Equals(temp)&&this.selectedMoves.Contains(Vector3Int.FloorToInt(temp))){
 						Debug.Log("Temp Selected : "+this.selected);
 						Debug.Log("Temp temp: "+temp);
-						if((!empty(selected)&&this.map[(int)this.selected.x,(int)this.selected.y].tag=="Allies"&&(empty(temp)||this.map[(int)temp.x,(int)temp.y].tag=="Ennemies"))){
+						if((!empty(selected)&&isAlly(this.selected)&&(empty(temp)||isEnnemy(temp)))){
 							Destroy(this.map[(int)temp.x,(int)temp.y],.5f);
 							this.map[(int)temp.x,(int)temp.y]=this.map[(int)this.selected.x,(int)this.selected.y];
 							this.map[(int)this.selected.x,(int)this.selected.y]=null;
@@ -76,7 +76,7 @@ public class GM : MonoBehaviour
 							this.selectedMoves.Clear();
 							this.movementCount+=1;
 						}
-						else if(!empty(selected)&&this.map[(int)temp.x,(int)temp.y].tag=="Allies"){
+						else if(!empty(selected)&&isAlly(temp)){
 							this.selected=temp;
 							this.selectedMoves.Clear();
 							this.selectedMoves=possibleMovesInRange(temp, 3);
@@ -118,8 +118,11 @@ public class GM : MonoBehaviour
 	}
 	
 	private void opponentTurn(){
-		
+		GameObject[] Enn=GameObject.FindGameObjectsWithTag("Ennemies");
+		int n=Random.Range(0,Enn.Length);
 	}
+	
+	//private Vector3
 	
 	private bool isAlly(Vector3 pos){
 		return this.map[(int)pos.x,(int)pos.y].tag=="Allies";
