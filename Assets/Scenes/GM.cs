@@ -35,7 +35,7 @@ public class GM : MonoBehaviour
 		GameObject ry=GameObject.Find( "Rydia" );
 		this.map[0,0]=ry;
 		GameObject ry2=GameObject.Find( "R2D2" );
-		this.map[0,1]=ry2;
+		this.map[1,0]=ry2;
     }
 
 	
