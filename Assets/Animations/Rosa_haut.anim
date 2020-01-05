@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Rydia_idle
+  m_Name: Rosa_haut
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,19 +20,19 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -7927322745426768624, guid: 9a1f1c087a956d7428cdb53ee52de790,
+      value: {fileID: -114319664713533737, guid: bb697bbb851e63c4ebcf197d97e24989,
         type: 3}
-    - time: 0.41666666
-      value: {fileID: -1257874401554068603, guid: 9a1f1c087a956d7428cdb53ee52de790,
+    - time: 0.125
+      value: {fileID: -536332963851667358, guid: bb697bbb851e63c4ebcf197d97e24989,
         type: 3}
-    - time: 0.8333333
-      value: {fileID: -7927322745426768624, guid: 9a1f1c087a956d7428cdb53ee52de790,
+    - time: 0.25
+      value: {fileID: 3399771688933829155, guid: bb697bbb851e63c4ebcf197d97e24989,
         type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 12
+  m_SampleRate: 8
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -47,15 +47,15 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -7927322745426768624, guid: 9a1f1c087a956d7428cdb53ee52de790, type: 3}
-    - {fileID: -1257874401554068603, guid: 9a1f1c087a956d7428cdb53ee52de790, type: 3}
-    - {fileID: -7927322745426768624, guid: 9a1f1c087a956d7428cdb53ee52de790, type: 3}
+    - {fileID: -114319664713533737, guid: bb697bbb851e63c4ebcf197d97e24989, type: 3}
+    - {fileID: -536332963851667358, guid: bb697bbb851e63c4ebcf197d97e24989, type: 3}
+    - {fileID: 3399771688933829155, guid: bb697bbb851e63c4ebcf197d97e24989, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.9166666
+    m_StopTime: 0.375
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

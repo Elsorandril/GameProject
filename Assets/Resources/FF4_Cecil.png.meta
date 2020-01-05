@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: bd1694c640c2d814db278d5f1605b0ac
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6416040271488153632
+    second: FF4_Cecil_0
+  - first:
+      213: 367791827213650443
+    second: FF4_Cecil_1
+  - first:
+      213: -5452411564417813042
+    second: FF4_Cecil_2
+  - first:
+      213: -8916842493049061391
+    second: FF4_Cecil_3
+  - first:
+      213: 4814003737695388548
+    second: FF4_Cecil_4
+  - first:
+      213: 2825767786515377898
+    second: FF4_Cecil_5
+  - first:
+      213: -1664995950308515063
+    second: FF4_Cecil_6
+  - first:
+      213: -2457762651302049946
+    second: FF4_Cecil_7
+  - first:
+      213: 5829384113816184765
+    second: FF4_Cecil_8
+  - first:
+      213: -8291771203762259609
+    second: FF4_Cecil_9
+  - first:
+      213: 8037554087100440220
+    second: FF4_Cecil_10
+  - first:
+      213: -565199917197529543
+    second: FF4_Cecil_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +76,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +106,297 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: FF4_Cecil_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 71
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7048801eae7a36248b4b0785349c66bc
+      internalID: 6416040271488153632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF4_Cecil_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 71
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3a14f755f07304babcd64d1dea1989
+      internalID: 367791827213650443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF4_Cecil_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 71
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bb1c846353c804d96e455765e3951b
+      internalID: -5452411564417813042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF4_Cecil_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 39
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a9bfc240dd40144a68043df992d3c4
+      internalID: -8916842493049061391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF4_Cecil_4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 7
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5262f6fd751c2354e8d4ad1dff948538
+      internalID: 4814003737695388548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF4_Cecil_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 39
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a4c3f460935a342962b4fc760f62aa
+      internalID: 2825767786515377898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF4_Cecil_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 39
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a644143cf4d644d8774225b35a6af4
+      internalID: -1664995950308515063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF4_Cecil_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 7
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49693c31436f4d54a91fc30426a6d81d
+      internalID: -2457762651302049946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF4_Cecil_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 7
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f846c7c176415342bbed05cc832284a
+      internalID: 5829384113816184765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF4_Cecil_9
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33f9be2efdd13c488db5f7c4312791a
+      internalID: -8291771203762259609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF4_Cecil_10
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 2
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb36e79ae3f39646818ce5fbe057642
+      internalID: 8037554087100440220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF4_Cecil_11
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 2
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223bce72223f79448b02b7429101ea9a
+      internalID: -565199917197529543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

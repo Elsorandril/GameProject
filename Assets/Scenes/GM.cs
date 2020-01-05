@@ -40,12 +40,12 @@ public class GM : MonoBehaviour
     void Update()
     {
 		Grid[] grid=GameObject.FindObjectsOfType( typeof(Grid) ) as Grid[];
-		//if (Input.touchCount > 0)
-		if (Input.GetButtonDown("Fire1"))
+		if (Input.touchCount > 0)
+		//if (Input.GetButtonDown("Fire1"))
         {
-			//Touch touch = Input.GetTouch(0);
-			//Vector2 pos = touch.position;
-			Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+			Touch touch = Input.GetTouch(0);
+			Vector2 pos = touch.position;
+			//Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			Debug.Log("("+pos.x+","+pos.y+")");
 			Vector3 temp=positionToCell(pos)+this.offset;
 			if(inBound(temp)){
