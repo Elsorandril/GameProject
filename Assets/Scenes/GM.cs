@@ -122,6 +122,8 @@ public class GM : MonoBehaviour
 		int n=Random.Range(0,Enn.Length);
 	}
 	
+	//private
+	
 	//private Vector3
 	
 	private bool isAlly(Vector3 pos){
