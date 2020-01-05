@@ -101,6 +101,45 @@ TextureImporter:
   - first:
       213: 3334836002868138259
     second: FF4_Rydia_32
+  - first:
+      213: -5703002603496817601
+    second: Rydia_bas_3
+  - first:
+      213: -7927322745426768624
+    second: Rydia_droite_1
+  - first:
+      213: -1257874401554068603
+    second: FF4_Rydia_17
+  - first:
+      213: 6573809401687125770
+    second: Rydia_bas_1
+  - first:
+      213: -6984068230582199942
+    second: Rydia_bas_2
+  - first:
+      213: -9163211876349322621
+    second: Rydia_haut_1
+  - first:
+      213: 865593125258949588
+    second: Rydia_haut_2
+  - first:
+      213: -8967261685262465955
+    second: Rydia_haut_3
+  - first:
+      213: 7948890633824223212
+    second: Rydia_gauche_1
+  - first:
+      213: -4907083742038665523
+    second: Rydia_gauche_2
+  - first:
+      213: -7813392195376056872
+    second: Rydia_gauche_3
+  - first:
+      213: 880316336316302127
+    second: Rydia_droite_3
+  - first:
+      213: -5703002603496817601
+    second: Rydia_droite_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -193,13 +232,13 @@ TextureImporter:
         width: 29
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ef0ec102eccbd24f9c04d140e3a7234
+      spriteID: 2fd1311506b381742966a17570923577
       internalID: 6792995678644942659
       vertices: []
       indices: 
@@ -214,13 +253,13 @@ TextureImporter:
         width: 27
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8873b86860fbaf48b76618b72dd194e
+      spriteID: 4c813704b6d497744a7969dbd5952f27
       internalID: 3234216158243446390
       vertices: []
       indices: 
@@ -235,13 +274,13 @@ TextureImporter:
         width: 26
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67466cd14e4d8774e83396f2d09237d7
+      spriteID: 1d23881f8ad0eb947a2a8150989ea749
       internalID: -3415039061818528088
       vertices: []
       indices: 
@@ -256,13 +295,13 @@ TextureImporter:
         width: 27
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee7f49205194029488ca993c6032c99c
+      spriteID: 716afc3eb3693d243868acfba76f789d
       internalID: -7060986137690789369
       vertices: []
       indices: 
@@ -277,13 +316,13 @@ TextureImporter:
         width: 33
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f005c8b4374d09249b3c236751c45703
+      spriteID: ec0ee98f4b7c7624e86c281a0d52bff9
       internalID: -4504907890767477292
       vertices: []
       indices: 
@@ -298,13 +337,13 @@ TextureImporter:
         width: 33
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c786bffa67531cf41a3f49c381ecd5a1
+      spriteID: b660c6bb0bc0849429294d6016f1fe8f
       internalID: -706075063989323708
       vertices: []
       indices: 
@@ -319,13 +358,13 @@ TextureImporter:
         width: 24
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 680f0aab9a808db40a0a04a415a6c9d3
+      spriteID: d01349a3ecdd37140b06741a20a05b8b
       internalID: -8738816254349009017
       vertices: []
       indices: 
@@ -340,13 +379,13 @@ TextureImporter:
         width: 24
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f243f4a50bf8b6f4f8d43aeac14eb79c
+      spriteID: a569169cebf59ba4b852be6efaec3dea
       internalID: 5639354718075954056
       vertices: []
       indices: 
@@ -361,13 +400,13 @@ TextureImporter:
         width: 27
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ebd1c73fd8fd734497f6a145098bafb
+      spriteID: ace0c06788f363f4caa9d35277ce2ce9
       internalID: -2541320896649202037
       vertices: []
       indices: 
@@ -382,13 +421,13 @@ TextureImporter:
         width: 25
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b00720fa91d2ba438b0d7280f16e65c
+      spriteID: 1d06a22165f82e247980472d65b6fc57
       internalID: 7471282064083041686
       vertices: []
       indices: 
@@ -403,13 +442,13 @@ TextureImporter:
         width: 28
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c66805eb85783cd42a90df6279d43382
+      spriteID: 8423a22fa394fdb4d9517cee8cf837fc
       internalID: -3835912017451502215
       vertices: []
       indices: 
@@ -424,13 +463,13 @@ TextureImporter:
         width: 42
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 227ddf97342e3d14e8c428971f0312be
+      spriteID: e823a2e0cfc28634ea1f7a731fcb3d8e
       internalID: -3193733891035364546
       vertices: []
       indices: 
@@ -445,13 +484,13 @@ TextureImporter:
         width: 34
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14a9026e09e92844b84495a8a3cd801a
+      spriteID: 22c2d3da30b54b64e8494338a568799e
       internalID: 607093737958945140
       vertices: []
       indices: 
@@ -466,13 +505,13 @@ TextureImporter:
         width: 26
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f96946d08de56e94ea7e4759f4d5d335
+      spriteID: dd540ea83b72d794cb32a105f9b59cde
       internalID: -3898055488866026740
       vertices: []
       indices: 
@@ -487,77 +526,14 @@ TextureImporter:
         width: 31
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cb85e707e907c440b00573d0dfcf21d
+      spriteID: ea2becb2ff8d16f44a13084aa4a503d4
       internalID: 234714811206043981
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FF4_Rydia_walk_1
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 71
-        width: 25
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1bfe3399470ff64f98f1d982f024a37
-      internalID: -5703002603496817601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FF4_Rydia_walk_2
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 71
-        width: 25
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f523cca1607875c4f900b33acb536edc
-      internalID: -7927322745426768624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FF4_Rydia_walk_3
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 71
-        width: 25
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fdac5e62ba3d1bf499ca80884b707729
-      internalID: -1257874401554068603
       vertices: []
       indices: 
       edges: []
@@ -571,13 +547,13 @@ TextureImporter:
         width: 29
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e66004c6d2432e4e9f69320a6bbcbbf
+      spriteID: 66a4addd535cb2044bfdae17c143d646
       internalID: -4798769871433905039
       vertices: []
       indices: 
@@ -592,13 +568,13 @@ TextureImporter:
         width: 23
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59e00f588f5b46c4ca50be3db90a84ad
+      spriteID: a37c08598a0a0ff4abb0e75d634bab76
       internalID: -7373530277489961393
       vertices: []
       indices: 
@@ -613,13 +589,13 @@ TextureImporter:
         width: 56
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e2ecc011761db845aef881ee83377f1
+      spriteID: 2503a9340a1a7dc4595bae60111bd1d3
       internalID: -905356276655278508
       vertices: []
       indices: 
@@ -634,56 +610,14 @@ TextureImporter:
         width: 23
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3be02597aec9c134db86f1c37a74c9b1
+      spriteID: 0eed8ad2eca3a4b4d972b81a9a7c61a3
       internalID: -804220388370378879
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FF4_Rydia_22
-      rect:
-        serializedVersion: 2
-        x: 189
-        y: 34
-        width: 19
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1edce5e43982fae4883a906ab4526df6
-      internalID: -8913123010936537205
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FF4_Rydia_23
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 34
-        width: 19
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d51f61baac6b14469e41154810dad9b
-      internalID: 4187707678220361159
       vertices: []
       indices: 
       edges: []
@@ -692,18 +626,18 @@ TextureImporter:
       name: FF4_Rydia_24
       rect:
         serializedVersion: 2
-        x: 229
-        y: 34
+        x: 232
+        y: 14
         width: 19
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c57ba3d8143b6524f85571df2636d6d9
+      spriteID: 226155cf00457ca4a9f668eec360d46f
       internalID: 2842717724678845801
       vertices: []
       indices: 
@@ -718,56 +652,14 @@ TextureImporter:
         width: 13
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a29b56049aada244882092fac24fbc6
+      spriteID: 237b01dedfbddbf469d8894ebf60889b
       internalID: 3822804249032367299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FF4_Rydia_26
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 25
-        width: 35
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 063aaf5fd106fcc41b60f38cae07703e
-      internalID: 5338459740344855318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FF4_Rydia_27
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 25
-        width: 43
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ef7a6fff1e1d8e4fa46af132c99d90c
-      internalID: 6279483858166432571
       vertices: []
       indices: 
       edges: []
@@ -781,35 +673,14 @@ TextureImporter:
         width: 19
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f0c30b9623c4a14e9c53608b30fba49
+      spriteID: f683bb5bc0e052f40b436dff7dba97b6
       internalID: -8230020932787397214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FF4_Rydia_29
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 16
-        width: 23
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6123280daa46834b8781a10a5d9386e
-      internalID: 6534485677024688126
       vertices: []
       indices: 
       edges: []
@@ -823,13 +694,13 @@ TextureImporter:
         width: 9
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2522f3c4bf3094489006915d09a8092
+      spriteID: d8006b75fe901e94cb0cd3e460a5b9be
       internalID: -5769396273336953569
       vertices: []
       indices: 
@@ -844,35 +715,266 @@ TextureImporter:
         width: 17
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e6528bac43e49d4f80f9a2689059170
+      spriteID: 16c850872f614314ab2515454c4fab3e
       internalID: -4350416286997882994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FF4_Rydia_32
+      name: Rydia_bas_1
       rect:
         serializedVersion: 2
-        x: 195
-        y: 7
-        width: 69
-        height: 7
+        x: 10
+        y: 71
+        width: 27
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c8609b54758c9142b21a29f25903f1f
-      internalID: 3334836002868138259
+      spriteID: 67c33863cd26cd34e820db9fce90c2fe
+      internalID: 6573809401687125770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rydia_bas_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 71
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6487997f0f1dba4bbc30d5b710a6c19
+      internalID: -6984068230582199942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rydia_bas_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 71
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440832aed9c0c0d4691eb4f28a6aa592
+      internalID: -5703002603496817601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rydia_haut_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 39
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb497d2a55d4494e85bde64b113db45
+      internalID: -9163211876349322621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rydia_haut_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 39
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90261d92c7ec0c84582589a0d3228308
+      internalID: 865593125258949588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rydia_haut_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 39
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edfce36db0a9ca44b7320a6311835a9
+      internalID: -8967261685262465955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rydia_gauche_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 7
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d41d7e02cc0eee448da3717d2ce6a03
+      internalID: 7948890633824223212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rydia_gauche_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 7
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3332d29ce1f3ef241bc55045626d23f4
+      internalID: -4907083742038665523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rydia_gauche_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 7
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103c31dead434e34688282bc6fa42c07
+      internalID: -7813392195376056872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rydia_droite_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 5
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d544d81d7fe897418aa6dd096d420e5
+      internalID: 880316336316302127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rydia_droite_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 5
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f558645ae8e8c4abb6ee9b354d67fb
+      internalID: -5703002603496817601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rydia_droite_1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 5
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6effe346df497843a9bc11deaeb3304
+      internalID: -7927322745426768624
       vertices: []
       indices: 
       edges: []

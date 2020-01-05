@@ -46,7 +46,9 @@ public class GM : MonoBehaviour
 		if (Input.GetButtonDown("Fire1"))
         {
 			//Touch touch = Input.GetTouch(0);
-			//Vector2 pos = touch.position;
+			//Vector2 pos_2 = touch.position;
+      //Vector3 pos = new Vector3(pos_2.x,pos_2.y,0);
+			//Vector3 pos = Camera.main.ScreenToWorldPoint(touch.position);
 			Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			Debug.Log("("+pos.x+","+pos.y+")");
 			Vector3 temp=positionToCell(pos)+this.offset;
