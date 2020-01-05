@@ -32,7 +32,7 @@ public class GM : MonoBehaviour
 		}
 		this.selected=Vector3.positiveInfinity;
 		GameObject ry=GameObject.Find( "Rydia" );
-		this.map[0,0]=ry;
+		this.map[2,0]=ry;
 		ry.transform.localPosition =getCoordCenter(0,0);
     }
 
@@ -44,8 +44,9 @@ public class GM : MonoBehaviour
 		//if (Input.GetButtonDown("Fire1"))
         {
 			Touch touch = Input.GetTouch(0);
-			Vector2 pos = touch.position;
-			//Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+			//Vector2 pos_2 = touch.position;
+            //Vector3 pos = new Vector3(pos_2.x,pos_2.y,0);
+			Vector3 pos = Camera.main.ScreenToWorldPoint(touch.position);
 			Debug.Log("("+pos.x+","+pos.y+")");
 			Vector3 temp=positionToCell(pos)+this.offset;
 			if(inBound(temp)){
